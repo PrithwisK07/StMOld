@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Astro description">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="generator" content="Astro v2.5.3">
+    <title>Welcome to Astro.</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- slick-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- slick-- -->
+
+    <!--fancybox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <!--fancybox-->
+  <link rel="stylesheet" href="/_astro/hoisted.73168167.css" />
+<link rel="stylesheet" href="/_astro/about.6477cd6b.css" />
+<link rel="stylesheet" href="/_astro/index.5528a6ac.css" /><script type="module" src="/_astro/hoisted.577cd4c0.js"></script></head>
+  <body>
+    
+	<style>astro-island,astro-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();;(()=>{var l;{let c={0:t=>t,1:t=>JSON.parse(t,o),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,o)),5:t=>new Set(JSON.parse(t,o)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(JSON.parse(t)),9:t=>new Uint16Array(JSON.parse(t)),10:t=>new Uint32Array(JSON.parse(t))},o=(t,s)=>{if(t===""||!Array.isArray(s))return s;let[e,n]=s;return e in c?c[e](n):void 0};customElements.get("astro-island")||customElements.define("astro-island",(l=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement&&this.parentElement.closest("astro-island[ssr]"))return;let s=this.querySelectorAll("astro-slot"),e={},n=this.querySelectorAll("template[data-astro-template]");for(let r of n){let i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of s){let i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("name")||"default"]=r.innerHTML)}let a=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),o):{};this.hydrator(this)(this.Component,a,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((s,e)=>{e.disconnect(),this.childrenConnectedCallback()}).observe(this,{childList:!0})}async childrenConnectedCallback(){window.addEventListener("astro:hydrate",this.hydrate);let s=this.getAttribute("before-hydration-url");s&&await import(s),this.start()}start(){let s=JSON.parse(this.getAttribute("opts")),e=this.getAttribute("client");if(Astro[e]===void 0){window.addEventListener(`astro:${e}`,()=>this.start(),{once:!0});return}Astro[e](async()=>{let n=this.getAttribute("renderer-url"),[a,{default:r}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),i=this.getAttribute("component-export")||"default";if(!i.includes("."))this.Component=a[i];else{this.Component=a;for(let d of i.split("."))this.Component=this.Component[d]}return this.hydrator=r,this.hydrate},s,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},l.observedAttributes=["props"],l))}})();</script><astro-island uid="tinP" prefix="r0" component-url="/_astro/Header.aac99819.js" component-export="default" renderer-url="/_astro/client.8093b80e.js" props="{}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Header&quot;,&quot;value&quot;:true}" await-children=""><div class="header"><div class="mobile-menu"><ul><li><a href="">Home</a></li><li><a href="">About</a></li><li><a href="">Kindergarten</a></li><li><a href="">Primary</a></li><li><a href="">Highschool</a></li><li><a href="">Facilities</a></li><li><a href="">Gallery</a></li><li><a href="">contact</a></li></ul></div><div class="container"><div class="header-wrapper"><div class="row section1"><div class="col-lg-3 " data-aos="flip-left" data-aos-offset="500"><img src="/_astro/logo1.e0d68bf3.png" alt=""/><img src="/_astro/menu.1f7862a4.png" alt="" class="menu"/></div><div class="col-lg-7"><div class="add" data-aos="fade-down" data-aos-offset="500" data-aos-duration="400"><div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAAaVBMVEUAAADzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczX7FpZPAAAAInRSTlMA41wE9SsKzYN+Ykk6MBP36djTxK1tUCHburGjmJZ2ZlYblAEGkwAAAIxJREFUGBldwQUCwyAABMED4lZ33/8/shAqITNKNeZ875xS7oiXtUrsGe2UODFqNJUTtZraER00VWwJlpqp8C6aKZZAq5kKME6pfAE8lBoMUDpFffWSN5RA1itwzw2sCylf4TUKrCHYFvUCr9aoJMoIakVX/jKrD8vPJtfXgY+11YTBW906JXq77wal3pdNEu4q1piZAAAAAElFTkSuQmCC" alt=""/></div><div class="contents"><ul><li><h6>call</h6></li><li><a href="">080-27525555</a></li><li><a href="">8197292244</a></li></ul></div></div><div class="add" data-aos="fade-down" data-aos-offset="500" data-aos-duration="700"><div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAAjVBMVEUAAADzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXnw+aSAAAALnRSTlMAecPjzn9lMxYKBPjtn5ctIA718ubSdU9IRCYQ3Na4squnjHJeVTjIvZCNiFgo1vnWPgAAANBJREFUGBkFwQdC3EAABDCtu329N+DokEDm/8+LBLDu2uXy+AkA+u8kSfJ4AqAk9fL98tE2ycsI+JPt2wSc6lQj6DLv8dG8YmjyAsMuFyipYNjnjDYLUFKB31Ro8g+UVECdwSY1UFIBi5xcUwElFdCm0+cJKNmvwDHFOg1wmWX2Bn/TmXazEVgdkiOq9DynA4zL+Zpr9vhMvQHY4J4WnnOfACipR9g85ukGmF6z7YH1Q+bliuH9kO0Z4LZIsnuYJ/laAWD1c5gl9eIMAOA2AfgPIxUTjOC49f4AAAAASUVORK5CYII=" alt=""/></div><div class="contents"><ul><li><h6>Work Time</h6></li><li>9:30 AM - 4:30 PM</li></ul></div></div><div class="add" data-aos="fade-down" data-aos-offset="500" data-aos-duration="900"><div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAVCAMAAAB44J7gAAAAdVBMVEUAAADzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczWUxwEGAAAAJnRSTlMABPkW6+fOubOMe2liQSvz4tLDop2ThnIwIhsQ8cmqeVRRPzszC3iF5fYAAACSSURBVBgZVcEFFsJAEETB3rgjEdzh3/+ITIS8UKWen23XYZRWmhQrRq1Tb8cscZJKFjpJESZs0w3G87XHXE6SazC5Csxb5hMAtW6Ap0EMxNphfPU2QKISk8o8MJ1ciGle+8zDVFLOwlWSi5itjjKVx0+uQcYk1shtGQRHTQ5nenfNCkythQTWJy34AaX+HJ4afQGPrxknLrrQtQAAAABJRU5ErkJggg==" alt=""/></div><div class="contents"><ul><li><h6>Address</h6></li><li>Mysore Road, Kanakapura, <br/> Karnataka 562117</li></ul></div></div></div></div><hr/><div class="row section2"><div class="col-lg-8"><div><ul><li class="links" data-aos="fade-right" data-aos-offset="500" data-aos-duration="200"><a href="/">Home</a></li><li class="links" data-aos="fade-right" data-aos-offset="500" data-aos-duration="300"><a href="/about">About</a></li><li><div class="links" data-aos="fade-right" data-aos-offset="500" data-aos-duration="400"><a href="">Classes</a></div><div class="dropdown"><ul><li><a href="/kindergarten">Kindergarten</a></li><li><a href="/primary">Primary School</a></li><li><a href="/highschool">High School</a></li></ul></div></li><li class=""><div class="links" data-aos="fade-right" data-aos-offset="500" data-aos-duration="500"><a href="">Facilities</a></div><div class="dropdown facility"><ul><li><a href="/extra-activities">Extra-crricular activities</a></li><li><a href="/school-facilities">School facilities</a></li></ul></div></li><li class="links" data-aos="fade-right" data-aos-offset="500" data-aos-duration="600"><a href="/gallery">Gallery</a></li><li class="links" data-aos="fade-right" data-aos-offset="500" data-aos-duration="700"><a href="/contact">Contact</a></li></ul></div></div><div class="col-lg-4"></div></div></div></div></div></astro-island>
+	<section class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="banner-txt" data-aos="fade-up" data-aos-offset="500" data-aos-duration="500">
+                    “Making a unique <span class="orange">student</span>”
+
+
+                    <h5 data-aos="fade-up" data-aos-duration="700" class="pt-3">
+                        with full potential and motivational and gifting to
+                        society
+                    </h5>
+                </div>
+
+                <div>
+                    
+                </div>
+
+                <div class="btns" data-aos="fade-up" data-aos-duration="900">
+                    <div class="round">
+    <a href="#course">
+       <button class="roundbtn">
+       
+        <div>
+            <img src="/_astro/arrow-white.d7f63b70.png" alt="" class="white">
+        </div>
+        View Classes
+       </button>
+    </a>
+</div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-duration="500">
+                <img src="/_astro/002.387f3078.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+	<section class="welcome" data-aos="fade-up" data-aos-offset="300">
+    <div class="container">
+        <div class="title text-center">
+            Welcome to <span class="orange"> St. Michel's</span>
+        </div>
+
+        <div class="para pt-4">
+            Welcome to our prestigious English school, where excellence and
+            individuality converge. With a commitment to academic rigor and
+            personalized attention, we foster an environment where students can
+            truly shine.
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2" data-aos="fade-up" data-aos-duration="500">
+                <img src="/_astro/graduation.5f07fca8.png" alt="">
+                <h5>Dedicated Faculty</h5>
+            </div>
+            <div class="col-lg-2 blue" data-aos="fade-up" data-aos-duration="700">
+                <img src="/_astro/teach.ea1f039e.png" alt="">
+                <h5>Best Educators</h5>
+            </div>
+            <div class="col-lg-2 green" data-aos="fade-up" data-aos-duration="900">
+                <img src="/_astro/building.56f7b454.png" alt="">
+                <h5>Great Facilities</h5>
+            </div>
+            <div class="col-lg-2 yellow" data-aos="fade-up" data-aos-duration="1100">
+                <img src="/_astro/call-agent.cb702952.png" alt="">
+                <h5>Student Support</h5>
+            </div>
+        </div>
+
+        <div class="banner">
+            <div class="image-container">
+                <div class="odd">
+                    <div>
+                        <img src="/_astro/k1.3f05d8b1.jpg" alt="" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="900">
+                    </div>
+                </div>
+                <div class="even">
+                    <div class="height">
+                        <img src="/_astro/k1.3f05d8b1.jpg" alt="" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="1100">
+                    </div>
+                    <div>
+                        <img src="/_astro/k1.3f05d8b1.jpg" alt="" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="800">
+                    </div>
+                </div>
+                <div class="odd">
+                    <div>
+                        <img src="/_astro/k1.3f05d8b1.jpg" alt="" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="800">
+                    </div>
+                    <div class="short">
+                        <img src="/_astro/k1.3f05d8b1.jpg" alt="" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="800">
+                    </div>
+                </div>
+                <div class="odd">
+                    <div class="short">
+                        <img src="/_astro/k1.3f05d8b1.jpg" alt="" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="800">
+                    </div>
+                    <div class="">
+                        <img src="/_astro/k1.3f05d8b1.jpg" alt="" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="800">
+                    </div>
+                </div>
+
+                <div class="even">
+                    <div>
+                        <img src="/_astro/k1.3f05d8b1.jpg" alt="" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="800">
+                    </div>
+                    <div>
+                        <div class="">
+                            <img src="/_astro/k1.3f05d8b1.jpg" alt="" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="800">
+                        </div>
+                        <div class="short">
+                            <img src="/_astro/k1.3f05d8b1.jpg" alt="" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="600">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btns pt-5">
+        <div class="round">
+    <a href="/gallery">
+       <button class="roundbtn">
+       
+        <div>
+            <img src="/_astro/arrow-white.d7f63b70.png" alt="" class="white">
+        </div>
+        View Gallery
+       </button>
+    </a>
+</div>
+        </div>
+    </div>
+</section>
+	<section class="course" id="course">
+
+  <!-- <div class="course-bg ">
+   <img src={Bg} alt="">
+  </div> -->
+  <div class="container">
+
+    <div class="title text-left">
+        Our <span class="orange">Classes</span>
+    </div>
+    <div class="slider owl-carousel">
+      <div data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+        <div class="course-card">
+   <div class="one">
+    <img src="/_astro/class4.bc45feb9.jpg" alt="">
+   </div>
+   <div class="two">
+    <div class="heading">Kindergarten (Pre KG, LKG &amp; UKG)</div>
+    <div class="word">Early Childhood Education [ECE] is one of the largest unregulated spaces in Indian Education. </div>
+    <div data-aos="fade-down" data-aos-duration="900">
+    <div class="round">
+    <a href="/kindergarten">
+       <button class="roundbtn">
+       
+        <div>
+            <img src="/_astro/arrow-white.d7f63b70.png" alt="" class="white">
+        </div>
+        Read More
+       </button>
+    </a>
+</div>
+    </div>
+   
+   </div>
+
+
+</div>
+      </div>
+      <div data-aos="fade-up" data-aos-offset="600" data-aos-duration="800">
+        <div class="course-card">
+   <div class="one">
+    <img src="/_astro/class3.4f60cce7.jpg" alt="">
+   </div>
+   <div class="two">
+    <div class="heading">Primary School(1-7)</div>
+    <div class="word">We ensure provision of holistic education to first generation learners through ST.MICHEL’S ENGLISH SCHOOL. The learning environment is welcoming, inspiring and nurturing.</div>
+    <div data-aos="fade-down" data-aos-duration="900">
+    <div class="round">
+    <a href="/primary">
+       <button class="roundbtn">
+       
+        <div>
+            <img src="/_astro/arrow-white.d7f63b70.png" alt="" class="white">
+        </div>
+        Read More
+       </button>
+    </a>
+</div>
+    </div>
+   
+   </div>
+
+
+</div>
+      </div>
+      <div data-aos="fade-up" data-aos-offset="600" data-aos-duration="1000">
+        <div class="course-card">
+   <div class="one">
+    <img src="/_astro/class2.79f65fde.jpg" alt="">
+   </div>
+   <div class="two">
+    <div class="heading">High School(8-10)</div>
+    <div class="word">We lay our emphasis on the all-round grooming of our students making them ready for the challenges in pursuing higher education, future-employment and presenting themselves as citizens of the world.</div>
+    <div data-aos="fade-down" data-aos-duration="900">
+    <div class="round">
+    <a href="/highschool">
+       <button class="roundbtn">
+       
+        <div>
+            <img src="/_astro/arrow-white.d7f63b70.png" alt="" class="white">
+        </div>
+        Read More
+       </button>
+    </a>
+</div>
+    </div>
+   
+   </div>
+
+
+</div>
+      </div>
+      <!-- <div>
+        <Card
+          image={College}
+          title="PUC ( Commerce and Science)"
+          words="lorem20rifweri uwgehruioghorfjv hauoghurg"
+          link=""
+        />
+      </div>
+      <div>
+        <Card
+          image={kind}
+          title="DEGREE ( B.Com and B.B.M)"
+          words="lorem20rifweri uwgehruioghorfjv hauoghurg"
+          link=""
+        />
+      </div> -->
+    </div>
+  </div>
+</section>
+	<section class="topper">
+
+  <div class="topper-bg">
+    
+  </div>
+  <div class="container">
+
+    <div class="title text-center">
+        Our <span class="orange">SSLC </span> Toppers
+    </div>
+
+    <div class="topper-slide">
+      <ul class="topper-slider owl-carousel">
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            SANGNA ACHARYA B M
+         </div>
+         <div class="marks">
+     613 / 625 
+         </div>
+          98.88 %
+    </div>
+</div></li>
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            INCHARA S
+         </div>
+         <div class="marks">
+     613 / 625 
+         </div>
+          90.08 %
+    </div>
+</div></li>
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            VAIBHAV G P
+         </div>
+         <div class="marks">
+     612 / 625 
+         </div>
+          79.2 %
+    </div>
+</div></li>
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            MOKSHITHA M	
+         </div>
+         <div class="marks">
+     605 / 625 
+         </div>
+          96.8 %
+    </div>
+</div></li>
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            HEMANTH U
+         </div>
+         <div class="marks">
+     605 / 625 
+         </div>
+          96.8 %
+    </div>
+</div></li>
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            TANMAYA C S
+         </div>
+         <div class="marks">
+     599 / 625 
+         </div>
+          95.84 %
+    </div>
+</div></li>
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            HARSHITHA S
+         </div>
+         <div class="marks">
+     593 / 625 
+         </div>
+          94.88 %
+    </div>
+</div></li>
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            APEKSHA N C
+         </div>
+         <div class="marks">
+     581 / 625 
+         </div>
+          92.96 %
+    </div>
+</div></li>
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            THANUJA N S
+         </div>
+         <div class="marks">
+     576 / 625 
+         </div>
+          92.16 %
+    </div>
+</div></li>
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            GAGANA K S
+         </div>
+         <div class="marks">
+     574 / 625 
+         </div>
+          91.84 %
+    </div>
+</div></li>
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            JEEVAN K M
+         </div>
+         <div class="marks">
+     569 / 625 
+         </div>
+          91.04 %
+    </div>
+</div></li>
+        <li class="slide"><div class="topper-card" data-aos="fade-up" data-aos-offset="500" data-aos-duration="400">
+   <div class="student">
+    <img src="/_astro/vai.8ec22567.jpg" alt="">
+   </div>
+    <div class="contents">
+        <div class="heading">
+            AMISHA SARIKA GOWDA
+         </div>
+         <div class="marks">
+     566 / 625 
+         </div>
+          90.56 %
+    </div>
+</div></li>
+        <!-- <li class="slide"><Card title="SANGNA ACHARYA B M" image={T1} marks="613" percent="" /></li> -->
+       
+       
+    </ul>
+    </div>
+    
+    
+  </div>
+</section>
+	<section class="review p-8 p-0">
+    <div class="container">
+
+        <div class="title orange pb-5">
+            Testimonials
+        </div>
+        
+        <div class="pt-5 review-slider owl-carousel">
+
+            <section class="review-div" data-aos="zoom-in" data-aos-offset="500" data-aos-duration="400">
+    <div class="wrapper">
+        <div class="overlay">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAN11AADddQGsh8ODAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAkBQTFRF////AwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAcpYpAAAAL90Uk5TAAECAwQFBgcICQoLDA0ODxASExQVFhcYGRobHB0eHyAiIyQmKCkqKy0uLzIzOTo7PD0+P0BBQkRFRkdKS0xNT1BRU1RVVldbXV5gYWJkZWZnaGlsbXBxc3R3eHp7fH1+gIKDh4mMjY6PkpOUlZaXmJqbnJ2en6Cho6SlqKqrrrO0tbe5uru8vb6/wMLDxMbHyMnKy83Oz9DR0tPU1dfZ2tvc3d7f4OHi4+fo6ert7u/w8fLz9PX29/j5+vv8/f5ikFb6AAALB0lEQVR42u2dCZ+OVRiHzzBhaLGGKJKoZCuVSWoi1LQM2rQxkUibkqSY7JTSRNIoilBMxjK2zMx7vlpfoH7hnGf5n/u6PsF9rvv6Pe/+vM4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAMF4c/AX6IwACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIIBkAiiYHoHzdzrbyPvrH3iAC8YDkPc3IvAAp4wHIO/vrsADtBoPQN7f+MAD/GE8AHl/tYEHOGQ8AHl/MwIP8IvxAOT91Qce4EfjAcj7eyHwAM3GA5D391rgAXYaD0De35LAA3xpPAB5fysCD7DaeADy/j4NPMBS4wHI+9sceIBXjQcg7+9o4AGeNR6Aur+aSuAB6mzvX97f3aHfZ5hsOwB5f0+EHuBO2wHI+3sj9AADbQcg7++z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" alt="">
+        </div>
+        <div class="person">
+            <img src="/_astro/neha.08be3951.jpg" alt="">
+        </div>
+        <div class="contents">
+            <div class="heading">
+                NEHA R GOWDA
+            </div>
+           <div class="role">
+            JSS science and technology Civil engineering 
+           </div>
+            <div class="words">
+                The individual attention and care by the faculty in SMES to each student is highly Commendable I attended this school nearly a decade ago and have only great things to say about my experience. The teachers are amazing, the curriculum is second to none and each child is treated with care.
+            </div>
+        </div>
+    </div>
+   
+</section>
+
+
+            <section class="review-div" data-aos="zoom-in" data-aos-offset="500" data-aos-duration="400">
+    <div class="wrapper">
+        <div class="overlay">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAN11AADddQGsh8ODAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAkBQTFRF////AwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAcpYpAAAAL90Uk5TAAECAwQFBgcICQoLDA0ODxASExQVFhcYGRobHB0eHyAiIyQmKCkqKy0uLzIzOTo7PD0+P0BBQkRFRkdKS0xNT1BRU1RVVldbXV5gYWJkZWZnaGlsbXBxc3R3eHp7fH1+gIKDh4mMjY6PkpOUlZaXmJqbnJ2en6Cho6SlqKqrrrO0tbe5uru8vb6/wMLDxMbHyMnKy83Oz9DR0tPU1dfZ2tvc3d7f4OHi4+fo6ert7u/w8fLz9PX29/j5+vv8/f5ikFb6AAALB0lEQVR42u2dCZ+OVRiHzzBhaLGGKJKoZCuVSWoi1LQM2rQxkUibkqSY7JTSRNIoilBMxjK2zMx7vlpfoH7hnGf5n/u6PsF9rvv6Pe/+vM4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAMF4c/AX6IwACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIIBkAiiYHoHzdzrbyPvrH3iAC8YDkPc3IvAAp4wHIO/vrsADtBoPQN7f+MAD/GE8AHl/tYEHOGQ8AHl/MwIP8IvxAOT91Qce4EfjAcj7eyHwAM3GA5D391rgAXYaD0De35LAA3xpPAB5fysCD7DaeADy/j4NPMBS4wHI+9sceIBXjQcg7+9o4AGeNR6Aur+aSuAB6mzvX97f3aHfZ5hsOwB5f0+EHuBO2wHI+3sj9AADbQcg7++z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" alt="">
+        </div>
+        <div class="person">
+            <img src="/_astro/neha.08be3951.jpg" alt="">
+        </div>
+        <div class="contents">
+            <div class="heading">
+                NEHA R GOWDA
+            </div>
+           <div class="role">
+            JSS science and technology Civil engineering 
+           </div>
+            <div class="words">
+                The individual attention and care by the faculty in SMES to each student is highly Commendable I attended this school nearly a decade ago and have only great things to say about my experience. The teachers are amazing, the curriculum is second to none and each child is treated with care.
+            </div>
+        </div>
+    </div>
+   
+</section>
+            <section class="review-div" data-aos="zoom-in" data-aos-offset="500" data-aos-duration="400">
+    <div class="wrapper">
+        <div class="overlay">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAN11AADddQGsh8ODAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAkBQTFRF////AwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAcpYpAAAAL90Uk5TAAECAwQFBgcICQoLDA0ODxASExQVFhcYGRobHB0eHyAiIyQmKCkqKy0uLzIzOTo7PD0+P0BBQkRFRkdKS0xNT1BRU1RVVldbXV5gYWJkZWZnaGlsbXBxc3R3eHp7fH1+gIKDh4mMjY6PkpOUlZaXmJqbnJ2en6Cho6SlqKqrrrO0tbe5uru8vb6/wMLDxMbHyMnKy83Oz9DR0tPU1dfZ2tvc3d7f4OHi4+fo6ert7u/w8fLz9PX29/j5+vv8/f5ikFb6AAALB0lEQVR42u2dCZ+OVRiHzzBhaLGGKJKoZCuVSWoi1LQM2rQxkUibkqSY7JTSRNIoilBMxjK2zMx7vlpfoH7hnGf5n/u6PsF9rvv6Pe/+vM4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAMF4c/AX6IwACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIIBkAiiYHoHzdzrbyPvrH3iAC8YDkPc3IvAAp4wHIO/vrsADtBoPQN7f+MAD/GE8AHl/tYEHOGQ8AHl/MwIP8IvxAOT91Qce4EfjAcj7eyHwAM3GA5D391rgAXYaD0De35LAA3xpPAB5fysCD7DaeADy/j4NPMBS4wHI+9sceIBXjQcg7+9o4AGeNR6Aur+aSuAB6mzvX97f3aHfZ5hsOwB5f0+EHuBO2wHI+3sj9AADbQcg7++z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" alt="">
+        </div>
+        <div class="person">
+            <img src="/_astro/neha.08be3951.jpg" alt="">
+        </div>
+        <div class="contents">
+            <div class="heading">
+                NEHA R GOWDA
+            </div>
+           <div class="role">
+            JSS science and technology Civil engineering 
+           </div>
+            <div class="words">
+                The individual attention and care by the faculty in SMES to each student is highly Commendable I attended this school nearly a decade ago and have only great things to say about my experience. The teachers are amazing, the curriculum is second to none and each child is treated with care.
+            </div>
+        </div>
+    </div>
+   
+</section>
+        </div>
+    </div>
+</section>
+	<section class="form-sections ptb" data-aos="fade-up" data-aos-offset="400" data-aos-duration="400">
+   
+ 
+ <div class="container">
+   <div class="title text-center pt-5">
+      Admissin Enquiry <span class="orange">2023-24</span>
+   </div>
+
+   <div class="heading text-center">
+      A Journey To A better Future Begins With Us
+   </div>
+
+    <div class="row form-row">
+      <div class="col-5" data-aos="zoom-in" data-aos-offset="500" data-aos-duration="400">
+         <img src="/_astro/boy-orange-bg.0711c376.png" alt="">
+      </div>
+      <div class="col-6">
+         <astro-island uid="1oEGg5" prefix="r1" component-url="/_astro/Form.2a9f9880.js" component-export="default" renderer-url="/_astro/client.8093b80e.js" props="{}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Formsection&quot;,&quot;value&quot;:true}" await-children=""><div><div class="form"><div><input data-aos="fade-left" data-aos-duration="400" type="text" placeholder="Student Name* " name="name" id="name"/></div><select data-aos="fade-left" data-aos-duration="600" name="Class" id="class" placeholder="Select Class"><option value="Baby Day Care">Baby Day Care</option><option value="Baby Class">Baby Class</option><option value="L.K.G">L.K.G</option><option value="U.K.G">U.K.G</option><option value="Class 1-10">Class 1-10</option></select><div><input data-aos="fade-left" data-aos-duration="800" type="text" name="place" id="place" placeholder="Enter your Place"/></div><div><input data-aos="fade-left" data-aos-duration="1000" type="text" name="contact" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="number" placeholder="Emnter Your Mobile.no"/></div><div><input data-aos="fade-left" data-aos-duration="1200" type="mail" name="mail" id="mail" placeholder="Enter Your E-mail"/></div><div></div><button>Submit</button></div></div></astro-island>
+      </div>
+    </div>
+ </div>
+</section>
+	<section class="footer">
+  <div class="container">
+    <hr>
+    <div class="row footer-row">
+      <div class="col-lg-6">
+        <div>
+          <img src="/_astro/logo1.e0d68bf3.png" alt="" data-aos="zoom-in" data-aos-duration="600">
+        </div>
+        <div data-aos="fade-up" data-aos-duration="400">
+          Welcome To St. Michel's English School The students get all-round
+          development in this institution. Utmost care is taken to see that they
+          excel in the English Language.
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="add">
+          <div class="icon" data-aos="zoom-in" data-aos-duration="600">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAAaVBMVEUAAADzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczX7FpZPAAAAInRSTlMA41wE9SsKzYN+Ykk6MBP36djTxK1tUCHburGjmJZ2ZlYblAEGkwAAAIxJREFUGBldwQUCwyAABMED4lZ33/8/shAqITNKNeZ875xS7oiXtUrsGe2UODFqNJUTtZraER00VWwJlpqp8C6aKZZAq5kKME6pfAE8lBoMUDpFffWSN5RA1itwzw2sCylf4TUKrCHYFvUCr9aoJMoIakVX/jKrD8vPJtfXgY+11YTBW906JXq77wal3pdNEu4q1piZAAAAAElFTkSuQmCC" alt="">
+          </div>
+          <div class="contents" data-aos="fade-left" data-aos-duration="600">
+            <ul>
+              <li><h6>call</h6></li>
+              <li>080-27525555</li>
+              <li>8197292244</li>
+            </ul>
+          </div>
+        </div>
+        <div class="add">
+          <div class="icon" data-aos="zoom-in" data-aos-duration="600">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAAjVBMVEUAAADzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXnw+aSAAAALnRSTlMAecPjzn9lMxYKBPjtn5ctIA718ubSdU9IRCYQ3Na4squnjHJeVTjIvZCNiFgo1vnWPgAAANBJREFUGBkFwQdC3EAABDCtu329N+DokEDm/8+LBLDu2uXy+AkA+u8kSfJ4AqAk9fL98tE2ycsI+JPt2wSc6lQj6DLv8dG8YmjyAsMuFyipYNjnjDYLUFKB31Ro8g+UVECdwSY1UFIBi5xcUwElFdCm0+cJKNmvwDHFOg1wmWX2Bn/TmXazEVgdkiOq9DynA4zL+Zpr9vhMvQHY4J4WnnOfACipR9g85ukGmF6z7YH1Q+bliuH9kO0Z4LZIsnuYJ/laAWD1c5gl9eIMAOA2AfgPIxUTjOC49f4AAAAASUVORK5CYII=" alt="">
+          </div>
+          <div class="contents" data-aos="fade-left" data-aos-duration="600">
+            <ul>
+              <li><h6>Work Time</h6></li>
+              <li>9:30 AM - 4:30 PM</li>
+            </ul>
+          </div>
+        </div>
+        <div class="add">
+          <div class="icon" data-aos="zoom-in" data-aos-duration="600">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAVCAMAAAB44J7gAAAAdVBMVEUAAADzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczXzczWUxwEGAAAAJnRSTlMABPkW6+fOubOMe2liQSvz4tLDop2ThnIwIhsQ8cmqeVRRPzszC3iF5fYAAACSSURBVBgZVcEFFsJAEETB3rgjEdzh3/+ITIS8UKWen23XYZRWmhQrRq1Tb8cscZJKFjpJESZs0w3G87XHXE6SazC5Csxb5hMAtW6Ap0EMxNphfPU2QKISk8o8MJ1ciGle+8zDVFLOwlWSi5itjjKVx0+uQcYk1shtGQRHTQ5nenfNCkythQTWJy34AaX+HJ4afQGPrxknLrrQtQAAAABJRU5ErkJggg==" alt="">
+          </div>
+          <div class="contents" data-aos="fade-left" data-aos-duration="600">
+            <ul>
+              <li><h6>Address</h6></li>
+              <li>Mysore Road, Kanakapura, <br> Karnataka 562117</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2">
+        <ul>
+          <li data-aos="zoom-in" data-aos-duration="600"><h6>Quick links</h6></li>
+          <li data-aos="zoom-in" data-aos-duration="600"><a href="/">Home</a></li>
+          <li data-aos="zoom-in" data-aos-duration="600"> <a href="/about">About</a></li>
+
+          <li data-aos="zoom-in" data-aos-duration="600"><a href="/school-facilities">Facilities</a></li>
+          <li data-aos="zoom-in" data-aos-duration="600"><a href="/gallery">Gallery</a></li>
+          <li data-aos="zoom-in" data-aos-duration="600"><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="copy d-flex ">
+      <div>
+        &copy; Copyrights 2023 <a href="">St.Michel'School</a> All Rights Reserved.
+      </div>
+      <div>
+      Powered by  <a href="">Brandswift.inc</a> All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</section>
+
+	
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!--carousal-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--carousal-->
+
+    <!--fancybox-->
+    
+    <!--fancybox-->
+
+    
+  </body>
+</html>
